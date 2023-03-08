@@ -16,17 +16,17 @@ Public Class DinerMenuForm
 
     'Displays the soup of the day
     Private Sub SoupButton_Click(sender As Object, e As EventArgs) Handles SoupButton.Click
-
+        DisplaySpecialLabel.Text = $"~ Soup of the Day ~{vbCrLf}{vbCrLf}Literally Just Borscht"
     End Sub
 
     'Displays the chef's special
     Private Sub SaladButton_Click(sender As Object, e As EventArgs) Handles SaladButton.Click
-
+        DisplaySpecialLabel.Text = $"~ Special Artisanal Salad ~{vbCrLf}{vbCrLf}Machine picked, processed and plated head of {vbCrLf}iceberg lettuce, that's it :)"
     End Sub
 
     'Displays the daily fish
     Private Sub FishButton_Click(sender As Object, e As EventArgs) Handles FishButton.Click
-
+        DisplaySpecialLabel.Text = ""
     End Sub
 
 End Class
