@@ -47,6 +47,7 @@ Partial Class DinerMenuForm
         Me.FishButton.Size = New System.Drawing.Size(116, 64)
         Me.FishButton.TabIndex = 2
         Me.FishButton.Text = "Fish"
+        Me.ToolTip1.SetToolTip(Me.FishButton, "Fresh fish for the day")
         Me.FishButton.UseVisualStyleBackColor = True
         '
         'SaladButton
@@ -56,6 +57,7 @@ Partial Class DinerMenuForm
         Me.SaladButton.Size = New System.Drawing.Size(116, 64)
         Me.SaladButton.TabIndex = 3
         Me.SaladButton.Text = "Salad"
+        Me.ToolTip1.SetToolTip(Me.SaladButton, "Chef's Special")
         Me.SaladButton.UseVisualStyleBackColor = True
         '
         'SoupButton
@@ -65,6 +67,7 @@ Partial Class DinerMenuForm
         Me.SoupButton.Size = New System.Drawing.Size(116, 64)
         Me.SoupButton.TabIndex = 4
         Me.SoupButton.Text = "Soup"
+        Me.ToolTip1.SetToolTip(Me.SoupButton, "Soup of the day")
         Me.SoupButton.UseVisualStyleBackColor = True
         '
         'DinerMenuForm
