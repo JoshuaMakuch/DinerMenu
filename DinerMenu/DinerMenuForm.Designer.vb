@@ -85,11 +85,14 @@ Partial Class DinerMenuForm
         '
         'DisplaySpecialLabel
         '
-        Me.DisplaySpecialLabel.AutoSize = True
+        Me.DisplaySpecialLabel.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.DisplaySpecialLabel.Font = New System.Drawing.Font("Times New Roman", 18.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
-        Me.DisplaySpecialLabel.Location = New System.Drawing.Point(236, 140)
+        Me.DisplaySpecialLabel.Location = New System.Drawing.Point(154, 99)
+        Me.DisplaySpecialLabel.MaximumSize = New System.Drawing.Size(500, 500)
         Me.DisplaySpecialLabel.Name = "DisplaySpecialLabel"
-        Me.DisplaySpecialLabel.Size = New System.Drawing.Size(293, 34)
+        Me.DisplaySpecialLabel.Size = New System.Drawing.Size(500, 311)
         Me.DisplaySpecialLabel.TabIndex = 6
         Me.DisplaySpecialLabel.Text = "Welcome to our diner!"
         Me.DisplaySpecialLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
