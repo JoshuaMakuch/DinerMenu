@@ -21,12 +21,13 @@ Public Class DinerMenuForm
 
     'Displays the chef's special
     Private Sub SaladButton_Click(sender As Object, e As EventArgs) Handles SaladButton.Click
-        DisplaySpecialLabel.Text = $"~ Special Artisanal Salad ~{vbCrLf}{vbCrLf}Machine picked, processed and plated head of {vbCrLf}iceberg lettuce, that's it :)"
+        DisplaySpecialLabel.Text = $"~ Special Artisanal Salad ~{vbCrLf}{vbCrLf}Machine picked, processed{vbCrLf}and plated head of iceberg{vbCrLf}lettuce, that's it :)"
     End Sub
 
     'Displays the daily fish
     Private Sub FishButton_Click(sender As Object, e As EventArgs) Handles FishButton.Click
-        DisplaySpecialLabel.Text = ""
+        DisplaySpecialLabel.Text = $"~ Fish, Possibly Fresh ~{vbCrLf}{vbCrLf}This flounder was found in{vbCrLf}the basement cellar of the{vbCrLf}restraunt, we cooked it,
+it tastes like wood glue{vbCrLf}good luck!"
     End Sub
 
 End Class
